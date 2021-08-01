@@ -12,9 +12,9 @@ function clicar() {
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
         
-        var fgender = document.getElementsByName('radsex') // f de formulário
+        var formgender = document.getElementsByName('radsex') 
         
-        if (fgender[0].checked) {
+        if (formgender[0].checked) {
             gender = "homem"
             if ( idade >=0 && idade < 10) {
                 img.setAttribute('src', 'images/pic-kid-m.png')
@@ -26,7 +26,7 @@ function clicar() {
                 img.setAttribute('src', 'images/pic-old-m.png')
             }
 
-        } else if (fgender[1].checked) {
+        } else if (formgender[1].checked) {
             gender = "mulher"
             if ( idade >=0 && idade < 10) {
                 img.setAttribute('src', 'images/pic-kid-f.png')
