@@ -8,5 +8,7 @@ Faz o calculo básico de idade, puxando o ano de forma automática com as funç�
 
 Pega a hora do dia com as funções new Date() e .getHours() e a depender do horário, a cor de fundo muda e é mostrada uma imagem referente ao horário.
 
+### [Contador](https://github.com/ViniciusCoutt/exercicios-js/tree/main/contador)
 
+Exercício feito com condicionais e repetições.
 
