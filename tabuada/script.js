@@ -14,7 +14,7 @@ function multiply() {
             var item = document.createElement('option')
             item.value = `tab${counter}` // Cria o atrubuto value dentro do option, com o nome: tab1...tab10 
             item.text = `${number} x ${counter} = ${number * counter}`
-            table.appendChild(item)        
+            table.appendChild(item)
         }
     }
 }
