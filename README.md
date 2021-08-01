@@ -12,7 +12,7 @@ Pega a hora do dia com as funções new Date() e .getHours() e a depender do hor
 
 Exercício feito com condicionais e repetições. 
 
-###[Tabuada](https://github.com/ViniciusCoutt/exercicios-js/tree/main/tabuada)
+### [Tabuada](https://github.com/ViniciusCoutt/exercicios-js/tree/main/tabuada)
 
 Exercicio que monta uma tabuada automáticamente no elemento html 'select' a partir de seus 'options'. Usei condicional para validação e repetição para criar os options.
 
