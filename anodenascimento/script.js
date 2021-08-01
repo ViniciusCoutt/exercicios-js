@@ -1,9 +1,10 @@
 function clicar() {
+
     var nasc = Number(document.getElementById('nasc').value)
     var time = new Date() 
     var ano = time.getFullYear()
     var res = document.querySelector('div#result')
-    var idade = ano - nasc
+    idade = ano - nasc
 
     if (nasc == 0 || nasc > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
