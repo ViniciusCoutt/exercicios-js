@@ -6,7 +6,7 @@ function multiply() {
         alert("Número não digitado")
     } else {
         let counter = 1
-        table.innerHTML = ""
+        table.innerHTML = "" // Para limpar o conteudo mostrado anteriormente.
         for (counter; counter <= 10; counter++) {
             var item = document.createElement('option')
             item.value = `tab${counter}` // Cria o atrubuto value dentro do option, com o nome: tab1...tab10 
