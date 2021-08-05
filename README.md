@@ -16,5 +16,9 @@ Exercício feito com condicionais e repetições.
 
 Exercicio que monta uma tabuada automáticamente no elemento html 'select' a partir de seus 'options'. Usei condicional para validação e repetição para criar os options.
 
+### [Banco de valores]((https://github.com/ViniciusCoutt/exercicios-js/tree/main/bancodevalores))
+
+Exercício que pega os números digitados e mostra algumas informações baseadas nesses números. Feito para treinar o uso de array e funções.
+
 
 
