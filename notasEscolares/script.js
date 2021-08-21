@@ -23,12 +23,4 @@ function getGrade(grade) {
     console.log(grade)
 }
 
-getGrade(102)
-getGrade(100)
-getGrade(89)
-getGrade(79)
-getGrade(69)
-getGrade(59)
-getGrade(0)
-getGrade()
-getGrade(-1)
+
