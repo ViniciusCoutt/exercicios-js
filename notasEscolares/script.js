@@ -20,7 +20,9 @@ function getGrade(grade) {
     } else {
         grade = "Nota inválida"
     }
-    console.log(grade)
+    return grade
 }
+
+console.log(getGrade(100))
 
 

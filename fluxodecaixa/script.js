@@ -26,6 +26,6 @@ function calcBalance() {
     console.log(`Seu saldo está ${result}! Valor: ${balanceResult}`)
 }
 
-balance.incomes.push(100, 100)
-balance.expenses.push(100, 100)
+balance.incomes.push(100, 100, 500, 2000, 1000,)
+balance.expenses.push(100, 100, 500, 400, 100)
 calcBalance()
