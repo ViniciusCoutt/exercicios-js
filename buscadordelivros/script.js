@@ -35,11 +35,7 @@ const booksByCategory = [
     },
 ];
 
-
 const totalCategories = booksByCategory.length
-
-
-
 
 for(let category of booksByCategory){
     console.log("Total de livros de", category.category + ":")
@@ -52,8 +48,9 @@ for(let category of booksByCategory){
         }
     }
     console.log("Essa categoria possui ", authors.length + " autores")
-
+    
 }
+
 /*
 function authorCount() {
     let authors =  [];
@@ -69,17 +66,17 @@ function authorCount() {
 }
 */
 
-function authorSearch(name) {
-
+function authorBooks(name) {
+    let books = [];
 
     for(let category of booksByCategory){
         for(let book of category.books) {
             if(book.author.includes(name) == true) {
-                console.log(book.title)
+                books.push(book.title)
             }
         }
     }
-
+    console.log(`Livros do autor ${name}: ${books.join("; ")}`)
 }
 
-authorSearch("Augusto Cury")
+authorBooks("George S. Clason")
