@@ -23,6 +23,6 @@ function getGrade(grade) {
     return grade
 }
 
-console.log(getGrade(100))
+console.log(getGrade(99))
 
 
