@@ -40,4 +40,4 @@ function whichMonth(monthNumber){
     }
 }
 
-console.log(whichMonth(12))
+console.log(whichMonth(10))
