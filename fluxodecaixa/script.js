@@ -27,5 +27,5 @@ function calcBalance() {
 }
 
 balance.incomes.push(100, 100, 500, 2000, 1000,)
-balance.expenses.push(100, 100, 500, 400, 100)
+balance.expenses.push(100, 100, 500, 400, 1000)
 calcBalance()
