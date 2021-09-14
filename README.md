@@ -10,7 +10,7 @@ Pega a hora do dia com as funções new Date() e .getHours() e a depender do hor
 
 ### [Contador](https://github.com/ViniciusCoutt/exercicios-js/tree/main/contador)
 
-Exercício feito com condicionais e repetições. 
+Exercício feito com condicionais e repetições. Para fazer uma contagem com inicio, fim e passo dados pelo usuário.
 
 ### [Tabuada](https://github.com/ViniciusCoutt/exercicios-js/tree/main/tabuada)
 
@@ -19,6 +19,18 @@ Exercicio que monta uma tabuada automáticamente no elemento html 'select' a par
 ### [Banco de valores](https://github.com/ViniciusCoutt/exercicios-js/tree/main/bancodevalores)
 
 Exercício que pega os números digitados e mostra algumas informações baseadas nesses números. Feito para treinar o uso de array e funções.
+
+### [buscadordelivros](https://github.com/ViniciusCoutt/exercicios-js/tree/main/bancodevalores)
+
+Exercício de busca de elementos dentro de um objeto.
+
+### [conversaodeunidade](https://github.com/ViniciusCoutt/exercicios-js/tree/main/conversaodeunidade)
+
+Exercício de conversão de unidade, convertemos de fahrenheit para celcius ou vice versa a depender da unidade de entrada.
+
+### [fluxodecaixa](https://github.com/ViniciusCoutt/exercicios-js/tree/main/fluxodecaixa)
+
+Exercício de fluxo de caixa. São pegas as diversas entradas e saidas e efetuado o calculo.
 
 
 
